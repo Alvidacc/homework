@@ -1,0 +1,131 @@
+
+    .bs-example{
+        margin: 20px;
+    }
+
+  body{
+  	background-image: url('http://moshlab.com/wp-content/uploads/2015/04/Cherry-Blossom-Flowers-Photography-Wallpaper-HD-Background-453889292.jpeg');
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  }
+
+  .box2{
+  	float:right;
+  }
+
+  .container{
+  	background-color: white;
+  	margin: auto;
+  	padding: 50px;
+  	text-align: center;
+  	opacity: .85;
+    position: relative;
+  }
+
+ 	.container2{
+ 	background: lightblue; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, white , lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , lightblue); /* Standard syntax (must be last) */
+  	margin: auto;
+  	padding: 50px;
+  	text-align: left;
+  	display: block;
+  }
+	
+
+
+ .gallery{
+ 	  font-family: verdana;
+
+ }
+
+.gallery a:link{
+    color: white;
+}
+
+h5{
+    font-family: Arial;
+    text-align: center;
+    color: purple;
+}
+
+	p{
+  	font-family: cursive;
+  	font-size: 1.5em;
+  	color: purple;
+ }
+
+.page3{
+  	font-family: cursive;
+  	text-align: center;
+  	color: purple;
+}
+
+
+.darkBG{
+  	background: #333;
+  	font-family: arial;
+    min-height: 5px;
+
+}
+
+.darkerBG{
+  	background: #666;
+    min-height: 5px;
+}
+
+.darkestBG{
+  	background: #000;
+    min-height: 5px;
+}
+
+img{
+  	width:100%;
+    height:auto; 
+}
+
+.img2{
+    width:10%;
+    height:auto;
+    padding-bottom: 20px;
+    margin: 20px auto; 
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    /* Direction of the items, can be row or column */
+    flex-direction: column;
+}
+
+#
+
+	}
+	a:hover{
+		font-size: 1em;
+		text-decoration: none;
+		color:yellow;
+ }
+
+	a:visted{
+  	font-size: 1em;
+  	text-decoration: none;
+  	color:green;
+ }
+
+
+	.footer {
+
+	  position: absolute;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  padding: 1rem;
+	  font-size: 10px;
+	  background-color: #efefef;
+	  text-align: center;
+ }
