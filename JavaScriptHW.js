@@ -57,6 +57,9 @@ surprise(3)
 
 
 
+
+
+
 function enter(door){
 
 	if(door===1){
