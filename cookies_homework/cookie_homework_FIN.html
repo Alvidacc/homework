@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+	<html>
+	<head>
+
+		   <!-- fonts links -->
+			<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+			<!-- bootstrap links -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		    <!-- cookies -->
+			<link rel="stylesheet" type="text/css" href="cookie_homework_FIN.css"/>
+
+		   <!-- javascript links -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<script src="cookie_hmwk.js"></script>
+
+		    <meta charset="utf-8">
+		  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+
+
+	<title>Cookie Assignment</title>
+	</head>
+	<body>
+
+		<div class="header">
+			<h1>Cookies</h1>
+		</div>
+
+
+<div class="container container2" ><iframe width="260" height="115" src="https://www.youtube.com/embed/OqL7jyrXhLs?autoplay=1" frameborder="0" allowfullscreen></iframe></div>
+
+		<div class="container">
+		    
+				    <div class="floating-box">
+				        <img src="http://images.media-allrecipes.com/userphotos/250x250/489452.jpg" alt="sugar cookie" width="200" height="245"><p>Sugar Cookies</p>
+					</div>
+					
+				    <div class="floating-box">
+				        <img src="http://www.littlesweetbaker.com/wp-content/uploads/2014/05/best-chocolate-chip-cookies-3.jpg" alt="sugar cookie" width="200" height="245"><p>Chocolate Chip Cookies</p>
+					</div>
+      			
+				     <div class="floating-box">
+				        <img src="http://addapinch.com/wp-content/blogs.dir/3/files/2014/06/lemon-sugar-cookie-recipe-DSC_4121.jpg" alt="sugar cookie" width="200" height="245"><p>Lemon Cookies</p>
+					</div>
+      				    
+					<form style="margin-left: 450px;">
+						<input type="button" id="s_cookie" value="Sample Sugar Cookies"><br>
+						<input type="button" id="cc_cookie" value="Sample Chocolate-Chip Cookies">	<br>
+						<input type="button" id="l_cookie"  value="Sample Lemon Cookies">							
+					</form>
+
+		</div>
+
+<script>
+$(document).ready(function(){
+	var s_cookie = $('#s_cookie');
+	var cc_cookie = $('#cc_cookie');
+	var l_cookie = $('#l_cookie');
+	document.cookie = "username=John Doe";
+
+	s_cookie.on('click', function(){
+		//sugar cookie
+		if($.cookie('s_cookie') == null){
+			$.cookie('s_cookie', 1);
+		} else {
+			var s_cookienum = parseInt($.cookie('s_cookie')) + 1 ;
+			$.cookie('s_cookie', s_cookienum);
+		}
+	});
+
+
+	cc_cookie.on('click', function(){
+		//chocolate chip cookie
+		if($.cookie('cc_cookie') == null){
+			$.cookie('cc_cookie', 1);
+		} else {
+			var cc_cookienum = parseInt($.cookie('cc_cookie')) + 1 ;
+			$.cookie('cc_cookie', cc_cookienum);
+		}
+	});
+
+
+
+	l_cookie.on('click', function(){
+		//lemon cookie
+		if($.cookie('l_cookie') == null){
+			$.cookie('l_cookie', 1);
+		} else {
+			var l_cookienum = parseInt($.cookie('l_cookie')) + 1 ;
+			$.cookie('l_cookie', l_cookienum);
+		}
+	});
+
+	
+});
+</script>
+</body>
+</html>
+
+						
+
+
+
+
+
+
+
+

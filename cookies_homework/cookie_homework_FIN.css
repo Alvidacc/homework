@@ -1,0 +1,59 @@
+body {
+  background: url(http://st1.thehealthsite.com/wp-content/uploads/2015/01/milk1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: gray;
+}
+
+
+.floating-box {
+    float: left;
+    width: 205px;
+    height: 250px;
+    margin: 80px;
+    border: 3px solid #ffffff;  
+}
+
+
+.header{
+	font-size: 30px;
+	color: blue;
+	font-family: 'Rancho', serif;
+  font-size: 10em;
+	text-align: center;
+	padding-top: 100px;
+  text-shadow: 1px 1px #000000;
+}
+
+h1 {
+   position: absolute; top: 15px; width: 100%;
+   padding-top: 50px;
+  
+}
+
+.container{
+	/*border: 1px solid yellow;*/
+	margin: 0 auto;
+  margin: 10px;
+}
+
+.container2{
+padding-top: 50px;
+text-align: center;
+}
+
+
+
+p{
+	text-align: left;
+	color: #000000;
+  font-size: 30px;
+	font-family: 'Tangerine';
+  font-weight: 20;
+}
+
+
+
+ 
